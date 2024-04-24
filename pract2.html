@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Technical Festival</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+    }
+
+    header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: #444;
+        padding: 0.5em;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5em 1em;
+        margin: 0 0.25em;
+    }
+
+    main {
+        padding: 1em;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    /* Media Queries */
+    @media only screen and (max-width: 600px) {
+        nav {
+            flex-direction: column;
+            align-items: center;
+        }
+        nav a {
+            margin: 0.25em;
+        }
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Technical Festival</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>Welcome to our annual Technical Festival! Join us for a celebration of innovation and technology.</p>
+        </section>
+        <section id="events">
+            <h2>Events</h2>
+            <p>Check out our exciting lineup of events, including workshops, competitions, and guest lectures.</p>
+        </section>
+        <section id="schedule">
+            <h2>Schedule</h2>
+            <p>View the schedule to plan your participation in various events and activities.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>For more information, contact us at info@example.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Technical Festival</p>
+    </footer>
+</body>
+</html>
